@@ -1,0 +1,17 @@
+// JULIAN MANCIPE
+public class For {
+    public static void main(String[] args) {
+
+        int suma = 0;  // inicializamos la variable suma
+
+        // for (inicialización o Contador ; condición hasta donde incrementa; modificaión "incremento o decremento")
+        for (int i = 0; i <= 10; i++) {
+
+            suma = suma + i; // Sumamos cada número al total  -> suma += i;  // otra manera de hacerlo Sumamos cada número al total
+
+            System.out.println(+ suma + " + " + i);
+        }
+
+        System.out.println("\n Sumatoria de los números enteros comprendidos entre el 1 y el 10 es: " + suma);
+    }
+}
