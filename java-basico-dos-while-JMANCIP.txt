@@ -1,0 +1,22 @@
+// Julian Mancipe
+public class While {
+
+    public static void main(String[] args) {
+
+       // inicializamos la variable
+        int suma = 0;   //  almacenar suma
+        int i = 0;      // contador
+
+        // While : Mientras ( condición )
+        while (i <= 10) {
+
+            System.out.println(i + " + " + suma);
+            suma = suma + i;
+            i = i + 1;           // incremeta en 1 a i
+
+        }
+
+        System.out.println(" \n Sumatoria de los números enteros comprendidos entre el 1 y el 10 es: " + suma);
+
+    }
+}
